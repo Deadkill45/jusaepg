@@ -1,0 +1,343 @@
+﻿<?xml version="1.0"?>
+<settings>
+   
+  <!-- for detailed info about the settings see http://webgrabplus.com/documentation/configuration/webgrabconfigxml 
+  and http://webgrabplus.com/sites/default/files/downloads/Misc/Documented_Configuration_Files_0.zip -->
+   
+  <filename>guide.xml</filename>
+  <mode></mode>
+  <postprocess grab="y" run="n">rex</postprocess>
+  <user-agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.59</user-agent>
+  <!-- to get access to sites which require your credentials -->
+  <credentials user="your username for the site" password="your password for the site">site name</credentials>
+  <!-- for siteini's that need a decrypt_userkey-->
+  <decryptkey site="site-name">decrypt_userkey</decryptkey>
+  <!-- add the correct license id values in the next line -->
+  <license wg-username="your webgrab+plus username" registered-email="your registered email address" password="your license password">f</license>
+  <logging>on</logging>
+  <retry time-out="10">4</retry>
+  <!-- timespan 0 is one day -->
+  <timespan>3</timespan>
+  <update>i</update>
+ 
+  <!--
+            Replace the next dummy channel entry with the channels you want.
+			You can look into the installed siteini.pack folder on your computer
+  
+            For the latest version,
+            see http://webgrabplus.com/epg-channels for the available sites/channels
+			or https://github.com/SilentButeo2/webgrabplus-siteinipack/tree/master/siteini.pack
+			or run SiteIni.Pack.Update.exe which is in the bin folder
+  -->
+  
+ </channel>
+  <channel id="Bang.Bang.al">
+    <display-name lang="sq">Bang Bang</display-name>
+    <icon src="https://vimg.ipko.tv/logo/color/bangbang.png" />
+    <icon src="https://vimg.ipko.tv/logo/color/bangbang.png" />
+    <url>http://www.ipko.com</url>
+  </channel>
+  <channel id="Premiere.1.al">
+    <display-name lang="sq">Premiere 1</display-name>
+    <icon src="https://vimg.ipko.tv/logo/color/premiere1.png" />
+    <icon src="https://vimg.ipko.tv/logo/color/premiere1.png" />
+    <url>http://www.ipko.com</url>
+  </channel>
+  <channel id="Premiere.2.al">
+    <display-name lang="sq">Premiere 2</display-name>
+    <icon src="https://vimg.ipko.tv/logo/color/premiere2.png" />
+    <icon src="https://vimg.ipko.tv/logo/color/premiere2.png" />
+    <url>http://www.ipko.com</url>
+  </channel>
+  <channel id="Premiere.3.al">
+    <display-name lang="sq">Premiere 3</display-name>
+    <icon src="https://vimg.ipko.tv/logo/color/premiere3.png" />
+    <icon src="https://vimg.ipko.tv/logo/color/premiere3.png" />
+    <url>http://www.ipko.com</url>
+  </channel>
+  <channel id="Premiere.4.al">
+    <display-name lang="sq">Premiere 4</display-name>
+    <icon src="https://vimg.ipko.tv/logo/color/premiere4.png" />
+    <icon src="https://vimg.ipko.tv/logo/color/premiere4.png" />
+    <url>http://www.ipko.com</url>
+  </channel>
+  <channel id="Premium.Channel.al">
+    <display-name lang="sq">Premium Channel</display-name>
+    <icon src="https://vimg.ipko.tv/logo/color/premiumchannel.png" />
+    <icon src="https://vimg.ipko.tv/logo/color/premiumchannel.png" />
+    <url>http://www.ipko.com</url>
+  </channel>
+  <channel id="Prime.TV.al">
+    <display-name lang="sq">Prime TV</display-name>
+    <icon src="https://vimg.ipko.tv/logo/color/primetv.png" />
+    <icon src="https://vimg.ipko.tv/logo/color/primetv.png" />
+    <url>http://www.ipko.com</url>
+  </channel>
+  <channel id="Sport.1.al">
+    <display-name lang="sq">Sport 1</display-name>
+    <icon src="https://vimg.ipko.tv/logo/color/sport1.png" />
+    <icon src="https://vimg.ipko.tv/logo/color/sport1.png" />
+    <url>http://www.ipko.com</url>
+  </channel>
+  <channel id="Sport.2.al">
+    <display-name lang="sq">Sport 2</display-name>
+    <icon src="https://vimg.ipko.tv/logo/color/sport2.png" />
+    <icon src="https://vimg.ipko.tv/logo/color/sport2.png" />
+    <url>http://www.ipko.com</url>
+  </channel>
+  <channel id="Sport.3.al">
+    <display-name lang="sq">Sport 3</display-name>
+    <icon src="https://vimg.ipko.tv/logo/color/sport3.png" />
+    <icon src="https://vimg.ipko.tv/logo/color/sport3.png" />
+    <url>http://www.ipko.com</url>
+  </channel>
+  <channel id="Sport.4.al">
+    <display-name lang="sq">Sport 4</display-name>
+    <icon src="https://vimg.ipko.tv/logo/color/sport4.png" />
+    <icon src="https://vimg.ipko.tv/logo/color/sport4.png" />
+    <url>http://www.ipko.com</url>
+  </channel>
+  <channel id="Sport.5.al">
+    <display-name lang="sq">Sport 5</display-name>
+    <icon src="https://vimg.ipko.tv/logo/color/sport5.png" />
+    <icon src="https://vimg.ipko.tv/logo/color/sport5.png" />
+    <url>http://www.ipko.com</url>
+  </channel>
+  <channel id="Sport.6.al">
+    <display-name lang="sq">Sport 6</display-name>
+    <icon src="https://vimg.ipko.tv/logo/color/sport6.png" />
+    <icon src="https://vimg.ipko.tv/logo/color/sport6.png" />
+    <url>http://www.ipko.com</url>
+  </channel>
+   <channel id="5e20b730f2f8d5003d739db7-66ce3e009ac0b1441b19ca29">
+    <display-name>Z Nation</display-name>
+    <icon src="https://provider-static.plex.tv/epg/cms/production/63687b98-1b80-4b25-80b4-4de7fd243311/ZNation_Channel_Logo_White.png"/>
+  </channel>
+  <programme channel="5e20b730f2f8d5003d739db7-66ce3e009ac0b1441b19ca29" start="20251021092914 +0000" stop="20251021102313 +0000">
+    <title>Z Nation</title>
+    <sub-title>Batch 47</sub-title>
+    <episode-num system="onscreen">S02E04</episode-num>
+    <desc>The group makes its way to the greenhouse where Batch 47 is being grown by Odegard.</desc>
+    <date>20151002</date>
+    <icon src="https://image.tmdb.org/t/p/original/oV7qr3Rjmtm7lC9U0mMFUBhZ4tD.jpg"/>
+  </programme>
+  <programme channel="5e20b730f2f8d5003d739db7-66ce3e009ac0b1441b19ca29" start="20251021102313 +0000" stop="20251021111641 +0000">
+    <title>Z Nation</title>
+    <sub-title>Zombaby!</sub-title>
+    <episode-num system="onscreen">S02E05</episode-num>
+    <desc>A pregnant Serena tracks down Murphy; the survivors stumble across a hidden Mennonite farm.</desc>
+    <date>20151009</date>
+    <icon src="https://image.tmdb.org/t/p/original/6wewoobnp0SMZzFfdboM5AddkdF.jpg"/>
+  </programme>
+  <programme channel="5e20b730f2f8d5003d739db7-66ce3e009ac0b1441b19ca29" start="20251021111641 +0000" stop="20251021121040 +0000">
+    <title>Z Nation</title>
+    <sub-title>Zombie Baby Daddy</sub-title>
+    <episode-num system="onscreen">S02E06</episode-num>
+    <desc>Murphy separates from the group out of fear that they may take the baby away - and kill her.</desc>
+    <date>20151016</date>
+    <icon src="https://image.tmdb.org/t/p/original/1BHyejW2If5b7iPPLet5SKJUo83.jpg"/>
+  </programme>
+  <programme channel="5e20b730f2f8d5003d739db7-66ce3e009ac0b1441b19ca29" start="20251021121040 +0000" stop="20251021130409 +0000">
+    <title>Z Nation</title>
+    <sub-title>The Collector</sub-title>
+    <episode-num system="onscreen">S02E08</episode-num>
+    <desc>Murphy is captured by an unbalanced zombie fan, who is eager to add him to a zombie museum.</desc>
+    <date>20151030</date>
+    <icon src="https://image.tmdb.org/t/p/original/4fY6wloqwTHOneTc2KFVOgbf6Nz.jpg"/>
+  </programme>
+  <programme channel="5e20b730f2f8d5003d739db7-66ce3e009ac0b1441b19ca29" start="20251021130409 +0000" stop="20251021135738 +0000">
+    <title>Z Nation</title>
+    <sub-title>RoZwell</sub-title>
+    <episode-num system="onscreen">S02E09</episode-num>
+    <desc>Near Roswell, New Mexico, the group encounters a community led by a woman called Bernadette.</desc>
+    <date>20151106</date>
+    <icon src="https://image.tmdb.org/t/p/original/qRD1JMk0IA0yF2wwit8U95iDTJT.jpg"/>
+  </programme>
+  <programme channel="5e20b730f2f8d5003d739db7-66ce3e009ac0b1441b19ca29" start="20251021135738 +0000" stop="20251021145136 +0000">
+    <title>Z Nation</title>
+    <sub-title>We Were Nowhere Near the Grand Canyon</sub-title>
+    <episode-num system="onscreen">S02E10</episode-num>
+    <desc>The team splits up because of a massive zombie horde and encounters a Native American tribe.</desc>
+    <date>20151113</date>
+    <icon src="https://image.tmdb.org/t/p/original/9y8f7Be2E1sbvWgt0UX8VyCAHKu.jpg"/>
+  </programme>
+  <programme channel="5e20b730f2f8d5003d739db7-66ce3e009ac0b1441b19ca29" start="20251021145136 +0000" stop="20251021154155 +0000">
+    <title>Z Nation</title>
+    <sub-title>Corporate Retreat</sub-title>
+    <episode-num system="onscreen">S02E11</episode-num>
+    <desc>The group becomes embroiled in corporate politics at a hotel overtaken by white-collar survivors.</desc>
+    <date>20151120</date>
+    <icon src="https://image.tmdb.org/t/p/original/zC7wBNAFopgOPsyyWaaXwH0tl9v.jpg"/>
+  </programme>
+  <programme channel="5e20b730f2f8d5003d739db7-66ce3e009ac0b1441b19ca29" start="20251021154155 +0000" stop="20251021163553 +0000">
+    <title>Z Nation</title>
+    <sub-title>Adios, Muchachos</sub-title>
+    <episode-num system="onscreen">S02E13</episode-num>
+    <desc>All hell breaks loose when it's discovered that Dr. Kurian's vaccine doesn't work.</desc>
+    <date>20151204</date>
+    <icon src="https://image.tmdb.org/t/p/original/mSXyZXY83YLj0cZdzG4xY21oRAx.jpg"/>
+  </programme>
+  <programme channel="5e20b730f2f8d5003d739db7-66ce3e009ac0b1441b19ca29" start="20251021163553 +0000" stop="20251021172922 +0000">
+    <title>Z Nation</title>
+    <sub-title>Day One</sub-title>
+    <episode-num system="onscreen">S02E14</episode-num>
+    <desc>Each member of the group reflects on the apocalypse as they finally arrive in California.</desc>
+    <date>20151211</date>
+    <icon src="https://image.tmdb.org/t/p/original/tej7xeyjSya8o5Oo3kMPwnVpLai.jpg"/>
+  </programme>
+  <programme channel="5e20b730f2f8d5003d739db7-66ce3e009ac0b1441b19ca29" start="20251021172922 +0000" stop="20251021182321 +0000">
+    <title>Z Nation</title>
+    <sub-title>All Good Things Must Come to an End</sub-title>
+    <episode-num system="onscreen">S02E15</episode-num>
+    <desc>In Los Angeles, the team drives to the coordinates of the mobile CDC lab provided by Citizen Z.</desc>
+    <date>20151218</date>
+    <icon src="https://image.tmdb.org/t/p/original/AlwcHLIIOLLsywexWS4Mmf57Wge.jpg"/>
+  </programme>
+  <programme channel="5e20b730f2f8d5003d739db7-66ce3e009ac0b1441b19ca29" start="20251021182321 +0000" stop="20251021191838 +0000">
+    <title>Z Nation</title>
+    <sub-title>No Mercy (Part 1)</sub-title>
+    <episode-num system="onscreen">S03E01</episode-num>
+    <desc>The gang protects the town.</desc>
+    <date>20160916</date>
+    <icon src="https://image.tmdb.org/t/p/original/FinF57EuPUM7ADF1tDMMWjtjIN.jpg"/>
+  </programme>
+  <programme channel="5e20b730f2f8d5003d739db7-66ce3e009ac0b1441b19ca29" start="20251021191838 +0000" stop="20251021201211 +0000">
+    <title>Z Nation</title>
+    <sub-title>No Mercy (Part 2)</sub-title>
+    <episode-num system="onscreen">S03E02</episode-num>
+    <desc>The gang protects the town.</desc>
+    <date>20160923</date>
+    <icon src="https://image.tmdb.org/t/p/original/4Tul71d4AtbqTbHgS1Nq41VUnCj.jpg"/>
+  </programme>
+  <programme channel="5e20b730f2f8d5003d739db7-66ce3e009ac0b1441b19ca29" start="20251021201211 +0000" stop="20251021210820 +0000">
+    <title>Z Nation</title>
+    <sub-title>Murphy's Miracle</sub-title>
+    <episode-num system="onscreen">S03E04</episode-num>
+    <desc>Murphy's mission gains momentum as he works to establish a new headquarters in Spokane.</desc>
+    <date>20160930</date>
+    <icon src="https://image.tmdb.org/t/p/original/levyNJK0o5T2zDDjFye6LJjh3xs.jpg"/>
+  </programme>
+  <programme channel="5e20b730f2f8d5003d739db7-66ce3e009ac0b1441b19ca29" start="20251021210820 +0000" stop="20251021220119 +0000">
+    <title>Z Nation</title>
+    <sub-title>Escorpion and the Red Hand</sub-title>
+    <episode-num system="onscreen">S03E05</episode-num>
+    <desc>As more people flock to Murphy's new cult, Dr. Merch works on a blend vaccine.</desc>
+    <date>20161007</date>
+    <icon src="https://image.tmdb.org/t/p/original/6KcdD7AajUGlxmeAZqGOwYyW6c5.jpg"/>
+  </programme>
+  <programme channel="5e20b730f2f8d5003d739db7-66ce3e009ac0b1441b19ca29" start="20251021220119 +0000" stop="20251021225417 +0000">
+    <title>Z Nation</title>
+    <sub-title>Little Red and the WolfZ</sub-title>
+    <episode-num system="onscreen">S03E06</episode-num>
+    <desc>A pack of wolves stalks an injured 10k.</desc>
+    <date>20161014</date>
+    <icon src="https://image.tmdb.org/t/p/original/qzqXGxPz02tVfdmbo3GVVkAv18H.jpg"/>
+  </programme>
+  <programme channel="5e20b730f2f8d5003d739db7-66ce3e009ac0b1441b19ca29" start="20251021225417 +0000" stop="20251021235026 +0000">
+    <title>Z Nation</title>
+    <sub-title>Welcome to Murphytown</sub-title>
+    <episode-num system="onscreen">S03E08</episode-num>
+    <desc>The Man attempts to kidnap Murphy but underestimates the strength of Murphy's followers.</desc>
+    <date>20161028</date>
+    <icon src="https://image.tmdb.org/t/p/original/eSUEmW1j6wj4xLBnGL28OlwMfuI.jpg"/>
+  </programme>
+  <programme channel="5e20b730f2f8d5003d739db7-66ce3e009ac0b1441b19ca29" start="20251021235026 +0000" stop="20251022004425 +0000">
+    <title>Z Nation</title>
+    <sub-title>Election Day</sub-title>
+    <episode-num system="onscreen">S03E09</episode-num>
+    <desc>Doc and Addy run into old friends while looking for Lucy on the road.</desc>
+    <date>20161104</date>
+    <icon src="https://image.tmdb.org/t/p/original/9C7unH6bcPvljcqKezCfaMcOubt.jpg"/>
+  </programme>
+  <programme channel="5e20b730f2f8d5003d739db7-66ce3e009ac0b1441b19ca29" start="20251022004425 +0000" stop="20251022014034 +0000">
+    <title>Z Nation</title>
+    <sub-title>Heart of Darkness</sub-title>
+    <episode-num system="onscreen">S03E10</episode-num>
+    <desc>Warren realizes the gravity of extracting Murphy and finds an old ally in El Escorpion.</desc>
+    <date>20161111</date>
+    <icon src="https://image.tmdb.org/t/p/original/i2VyRTvhD1PgNHqNGcqt24uYDKt.jpg"/>
+  </programme>
+  <programme channel="5e20b730f2f8d5003d739db7-66ce3e009ac0b1441b19ca29" start="20251022014034 +0000" stop="20251022023403 +0000">
+    <title>Z Nation</title>
+    <sub-title>They Grow Up So Quickly</sub-title>
+    <episode-num system="onscreen">S03E11</episode-num>
+    <desc>Doc and Addy try to convince Lucy's family to follow them. Murphy tests 10K's allegiance.</desc>
+    <date>20161118</date>
+    <icon src="https://image.tmdb.org/t/p/original/t4BDcrr26JWVKznaq1WUZpIANa.jpg"/>
+  </programme>
+  <programme channel="5e20b730f2f8d5003d739db7-66ce3e009ac0b1441b19ca29" start="20251022023403 +0000" stop="20251022032801 +0000">
+    <title>Z Nation</title>
+    <sub-title>The Siege of Murphytown</sub-title>
+    <episode-num system="onscreen">S03E13</episode-num>
+    <desc>Warren leads an attack against Murphytown to extract its smug leader.</desc>
+    <date>20161202</date>
+    <icon src="https://image.tmdb.org/t/p/original/hYcTPW3z5y8UIhROaamvvDKuLmr.jpg"/>
+  </programme>
+  <programme channel="5e20b730f2f8d5003d739db7-66ce3e009ac0b1441b19ca29" start="20251022032801 +0000" stop="20251022042110 +0000">
+    <title>Z Nation</title>
+    <sub-title>Duel</sub-title>
+    <episode-num system="onscreen">S03E14</episode-num>
+    <desc>Addy is being pummeled with whatever The Man can throw at her - and Lucy does the same right back.</desc>
+    <date>20161209</date>
+    <icon src="https://image.tmdb.org/t/p/original/uFC2ImS3IhR3frJt3EcHnUYJyBB.jpg"/>
+  </programme>
+  <programme channel="5e20b730f2f8d5003d739db7-66ce3e009ac0b1441b19ca29" start="20251022042110 +0000" stop="20251022051439 +0000">
+    <title>Z Nation</title>
+    <sub-title>Everybody Dies in the End</sub-title>
+    <episode-num system="onscreen">S03E15</episode-num>
+    <desc>The gang reunites and faces a battle.</desc>
+    <date>20161216</date>
+    <icon src="https://image.tmdb.org/t/p/original/aTHVMcIg2ylu6Q58UiaZLsmxBBD.jpg"/>
+  </programme>
+  <programme channel="5e20b730f2f8d5003d739db7-66ce3e009ac0b1441b19ca29" start="20251022051439 +0000" stop="20251022061050 +0000">
+    <title>Z Nation</title>
+    <sub-title>Warren's Dream</sub-title>
+    <episode-num system="onscreen">S04E01</episode-num>
+    <desc>Warren's apocalyptic dream of a Black Rainbow sends the group on a mysterious new mission.</desc>
+    <date>20170929</date>
+    <icon src="https://image.tmdb.org/t/p/original/822cKIBNRBWOyBsEHc2oxmtJAS3.jpg"/>
+  </programme>
+  <programme channel="5e20b730f2f8d5003d739db7-66ce3e009ac0b1441b19ca29" start="20251022061050 +0000" stop="20251022070427 +0000">
+    <title>Z Nation</title>
+    <sub-title>Escape from Zona</sub-title>
+    <episode-num system="onscreen">S04E02</episode-num>
+    <desc>Driven by her dream of a black rainbow and flesh-eating rain, Warren and Murphy escape Zona.</desc>
+    <date>20171006</date>
+    <icon src="https://image.tmdb.org/t/p/original/vrlMmDdxMsDaif382PGnAqoHPEs.jpg"/>
+  </programme>
+  <programme channel="5e20b730f2f8d5003d739db7-66ce3e009ac0b1441b19ca29" start="20251022070427 +0000" stop="20251022075733 +0000">
+    <title>Z Nation</title>
+    <sub-title>A New Mission: Keep Moving</sub-title>
+    <episode-num system="onscreen">S04E04</episode-num>
+    <desc>Following Warren's dream, the team doesn't stop while crossing the Great Pile.</desc>
+    <date>20171020</date>
+    <icon src="https://image.tmdb.org/t/p/original/3dSe5S1vxpnaK91PUDlxpnCrOnb.jpg"/>
+  </programme>
+  <programme channel="5e20b730f2f8d5003d739db7-66ce3e009ac0b1441b19ca29" start="20251022075733 +0000" stop="20251022085104 +0000">
+    <title>Z Nation</title>
+    <sub-title>The Unknowns</sub-title>
+    <episode-num system="onscreen">S04E05</episode-num>
+    <desc>The team is captured by a mysterious entity and enslaved in an elaborate underground facility.</desc>
+    <date>20171027</date>
+    <icon src="https://image.tmdb.org/t/p/original/6WcMxD4Ezf0xtNsBjZ4LPAac1HX.jpg"/>
+  </programme>
+  <programme channel="5e20b730f2f8d5003d739db7-66ce3e009ac0b1441b19ca29" start="20251022085104 +0000" stop="20251022094505 +0000">
+    <title>Z Nation</title>
+    <sub-title>Back from the Undead</sub-title>
+    <episode-num system="onscreen">S04E06</episode-num>
+    <desc>Lucy fights to save Murphy's life; Warren and the others battle a biologically modified zombie.</desc>
+    <date>20171103</date>
+    <icon src="https://image.tmdb.org/t/p/original/1lbkOYPxepZvg7SLRnZuPtHzhwJ.jpg"/>
+  </programme>
+  <programme channel="5e20b730f2f8d5003d739db7-66ce3e009ac0b1441b19ca29" start="20251022094505 +0000" stop="20251022103806 +0000">
+    <title>Z Nation</title>
+    <sub-title>Warren's Wedding</sub-title>
+    <episode-num system="onscreen">S04E07</episode-num>
+    <desc>Warren is unable to stop Murphy and the others from committing an atrocity as misplaced revenge.</desc>
+    <date>20171110</date>
+    <icon src="https://image.tmdb.org/t/p/original/H5h9gdrSJSjihFo2gDrX9vaeKo.jpg"/>
+  </programme>
+  
+
+ 
+</settings>
